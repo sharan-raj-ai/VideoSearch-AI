@@ -1,4 +1,4 @@
-# Semantic Video Search Engine
+# VideoSearch AI
 
 > **A Production-Grade Multi-Modal Video Search System**
 >

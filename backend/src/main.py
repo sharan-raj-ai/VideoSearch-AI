@@ -38,8 +38,8 @@ from .utils import validate_file_extension, get_safe_filename, generate_video_id
 # ===========================================
 
 app = FastAPI(
-    title="Semantic Video Search API",
-    description="Search through video content using natural language queries",
+    title="VideoSearch AI API",
+    description="Semantic search for video content using Groq Vision/Audio and Qdrant",
     version="1.0.0",
     docs_url="/docs",
     redoc_url="/redoc"

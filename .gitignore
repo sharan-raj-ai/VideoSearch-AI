@@ -1,0 +1,40 @@
+# Environment Files
+.env
+*.env
+backend/.env
+
+# Internal Documentation (User Requested)
+docs/PROGRESS.md
+docs/IMPLEMENTATION_PLAN.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+backend/venv/
+backend/temp/
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Node
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+out/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project artifacts
+architecture.png
+diagram.mmd
+puppeteer-config.json
+generate_diagram_url.py
+test_db_connect.py
+fix_indices.py
+test_search_score.py
+md-to-pdf-config.js
