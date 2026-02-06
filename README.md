@@ -66,7 +66,7 @@ The `RQ Worker` picks up the job and executes the pipeline:
 5.  **Indexing:** Stores these vectors (with metadata like timestamps and thumbnails) in **Qdrant**.
 
 ### 3. Search (`/search`)
-- User queries: *"middle finger"*
+- User queries: *"black ring in finger"*
 - Backend converts query to vector using **Jina AI**.
 - Performs **Cosine Similarity Search** in Qdrant.
 - Returns timestamps where the semantic similarity score > `0.15`.
